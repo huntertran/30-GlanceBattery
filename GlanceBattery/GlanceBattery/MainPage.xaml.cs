@@ -38,6 +38,9 @@ namespace GlanceBattery
             CountOpen();
             //Common task: Ask if user want to download newer version
             SetupUI();
+            //Update tiles
+            StartPeriodicAgent();
+
             base.OnNavigatedTo(e);
         }
 
