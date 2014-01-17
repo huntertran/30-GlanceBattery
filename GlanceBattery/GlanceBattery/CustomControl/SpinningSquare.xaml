@@ -1,0 +1,53 @@
+﻿<UserControl x:Class="KaraokeOnline.CustomControl.SpinningSquare"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             FontFamily="{StaticResource PhoneFontFamilyNormal}"
+             FontSize="{StaticResource PhoneFontSizeNormal}"
+             Foreground="{StaticResource PhoneForegroundBrush}"
+             mc:Ignorable="d">
+
+    <UserControl.Resources>
+        <Storyboard x:Name="SpinningSquareStoryBoard" RepeatBehavior="Forever">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="grid" Storyboard.TargetProperty="(UIElement.Projection).(PlaneProjection.RotationX)">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0" />
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0" />
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="grid" Storyboard.TargetProperty="(UIElement.Projection).(PlaneProjection.RotationY)">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0" />
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0" />
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="grid" Storyboard.TargetProperty="(UIElement.Projection).(PlaneProjection.RotationZ)">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0" />
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0" />
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="grid" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.Rotation)">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0" />
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="90" />
+                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="180" />
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+    </UserControl.Resources>
+
+    <Grid x:Name="LayoutRoot">
+        <Grid x:Name="grid"
+              HorizontalAlignment="Left"
+              VerticalAlignment="Top"
+              RenderTransformOrigin="0.5,0.5">
+            <Grid.RenderTransform>
+                <CompositeTransform />
+            </Grid.RenderTransform>
+            <Grid.Projection>
+                <PlaneProjection />
+            </Grid.Projection>
+            <Path Width="138"
+                  Height="138"
+                  Data="M16.000999,48.002997L48.002997,48.002997 48.002997,52.002997 16.000999,52.002997z M58.003299,44.002999C61.315865,44.002998 64.000999,46.686939 64.000999,50.003348 64.000999,53.319453 61.315865,56.002998 58.003299,56.002998 54.690633,56.002998 52.002999,53.319453 52.003,50.003348 52.002999,46.686939 54.690633,44.002998 58.003299,44.002999z M6.0008202,44.002998C9.3134499,44.002998 12.000999,46.686941 12.000999,50.003348 12.000999,53.319455 9.3134499,56.002999 6.0008202,56.002999 2.6875343,56.002999 0,53.319455 0,50.003348 0,46.686941 2.6875343,44.002998 6.0008202,44.002998z M56.002998,16.000998L60.002998,16.000998 60.002998,40.002997 56.002998,40.002997z M4,16.000998L8.0009995,16.000998 8.0009995,40.002997 4,40.002997z M16.000999,4.0009995L48.002997,4.0009995 48.002997,8.0009995 16.000999,8.0009995z M58.003298,0C61.315863,0 64.000997,2.6843338 64.000997,6.0008202 64.000997,9.3173103 61.315863,12.000999 58.003298,12.000999 54.690633,12.000999 52.002999,9.3173103 52.002999,6.0008202 52.002999,2.6843338 54.690633,0 58.003298,0z M6.0008202,0C9.3134499,0 12.000999,2.6843338 12.000999,6.0008202 12.000999,9.3173103 9.3134499,12.000999 6.0008202,12.000999 2.6875343,12.000999 0,9.3173103 0,6.0008202 0,2.6843338 2.6875343,0 6.0008202,0z"
+                  Fill="{StaticResource PhoneContrastBackgroundBrush}"
+                  Opacity="0.2"
+                  RenderTransformOrigin="0.5,0.5"
+                  Stretch="Uniform" />
+        </Grid>
+    </Grid>
+</UserControl>

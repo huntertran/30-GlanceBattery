@@ -1,0 +1,115 @@
+﻿<phone:PhoneApplicationPage x:Class="KaraokeOnline.PageGroups.RateAndReview.RateAndReviewPage"
+                            xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                            xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                            xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                            xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                            xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+                            xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+                            FontFamily="{StaticResource PhoneFontFamilyNormal}"
+                            FontSize="{StaticResource PhoneFontSizeNormal}"
+                            Foreground="{StaticResource PhoneForegroundBrush}"
+                            Orientation="Landscape"
+                            SupportedOrientations="PortraitOrLandscape"
+                            shell:SystemTray.IsVisible="False"
+                            mc:Ignorable="d">
+
+    <!--
+        <i:Interaction.Behaviors>
+        <Huyn:PageRotationBehavior />
+        </i:Interaction.Behaviors>
+    -->
+
+    <!--  LayoutRoot is the root grid where all page content is placed  -->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <ContentPresenter Grid.Row="0"
+                          Grid.RowSpan="2"
+                          Grid.Column="0"
+                          Grid.ColumnSpan="2"
+                          ContentTemplate="{StaticResource AppBackgroundTemplate}" />
+
+        <!--  TitlePanel contains the name of the application and page title  -->
+        <StackPanel Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock Style="{StaticResource PhoneTextNormalStyle}" Text="KARAOKE ONLINE" />
+            <TextBlock x:Name="RateReviewTextBlock"
+                       Margin="9,-7,0,0"
+                       Style="{StaticResource PhoneTextTitle1Style}"
+                       Text="{Binding Path=LocalizedResources.RateAndReview_RateReviewTextBlock_Text,
+                                      Source={StaticResource LocalizedStrings}}" />
+        </StackPanel>
+
+        <!--  ContentPanel - place additional content here  -->
+        <Grid x:Name="ContentPanel"
+              Grid.Row="1"
+              Margin="12,0,12,0">
+
+            <TextBlock x:Name="SelectFunctionTextBlock"
+                       HorizontalAlignment="Center"
+                       FontSize="40"
+                       Text="{Binding Path=LocalizedResources.RateAndReview_SelectFunctionTextBlock_Text,
+                                      Source={StaticResource LocalizedStrings}}" />
+
+            <Grid VerticalAlignment="Center">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="4*" />
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="4*" />
+                </Grid.ColumnDefinitions>
+
+                <Grid x:Name="rateAndReviewGrid" Tap="rateAndReviewGrid_Tap">
+                    <Grid.Background>
+                        <SolidColorBrush Opacity="0.3" Color="{StaticResource PhoneAccentColor}" />
+                    </Grid.Background>
+                    <Path Width="150"
+                          Height="150"
+                          Margin="15"
+                          Data="F1M1296.83,526.473L1306.72,546.509 1328.83,549.723 1312.83,565.319 1316.61,587.34 1296.83,576.943 1277.06,587.34 1280.83,565.319 1264.83,549.723 1286.94,546.509 1296.83,526.473z"
+                          Fill="{StaticResource PhoneContrastBackgroundBrush}"
+                          RenderTransformOrigin="0.5,0.5"
+                          Stretch="Uniform" />
+                    <Grid VerticalAlignment="Bottom">
+                        <Grid.Background>
+                            <SolidColorBrush Opacity="0.7" Color="{StaticResource PhoneAccentColor}" />
+                        </Grid.Background>
+                        <TextBlock x:Name="RateAndReviewTextBlock"
+                                   HorizontalAlignment="Center"
+                                   FontSize="25"
+                                   Text="{Binding Path=LocalizedResources.RateAndReview_RateAndReviewTextBlock_Text,
+                                                  Source={StaticResource LocalizedStrings}}" />
+                    </Grid>
+                </Grid>
+
+                <Grid x:Name="feedBackGrid"
+                      Grid.Column="2"
+                      Tap="feedBackGrid_Tap">
+                    <Grid.Background>
+                        <SolidColorBrush Opacity="0.3" Color="{StaticResource AccentBrushAlter}" />
+                    </Grid.Background>
+                    <Path Width="150"
+                          Height="150"
+                          Margin="15"
+                          Data="M1.5968086,13.979028L6.5579186,13.979028 6.5739179,13.979028 11.538022,13.979028C11.538022,13.979029,12.230039,14.113061,12.039033,15.772109L11.923033,21.636089C11.923033,21.636089,14.027075,23.56601,11.808033,24.799034L7.1569314,33.771028 7.1569314,26.497023 7.1569314,25.032065C7.156931,25.032065 9.8789902,23.238008 6.5989199,22.178078 6.5989199,22.178078 6.58492,22.181984 6.5739179,22.184059L6.5739179,22.191017C6.5689206,22.189064 6.5699201,22.189064 6.5659151,22.186989 6.5639158,22.189064 6.5659147,22.189064 6.5579186,22.191017L6.5579186,22.184059 6.5339155,22.178078C3.2548456,23.238008,5.974906,25.032065,5.974906,25.032065L5.974906,26.497023 5.974906,33.771028 1.3248035,24.799034C-0.89224359,23.56601,1.2107988,21.636089,1.2107994,21.636089L1.094799,15.772109C0.90179399,14.113061,1.5968088,13.979029,1.5968086,13.979028z M1.156,10.871962L11.961003,10.871962C12.598003,10.871962 13.118004,11.38897 13.118004,12.028979 13.118004,12.668989 12.598003,13.185997 11.961003,13.185997L1.156,13.185997C0.51900017,13.185997 2.9802322E-08,12.668989 0,12.028979 2.9802322E-08,11.38897 0.51900017,10.871962 1.156,10.871962z M12.472999,2.117034L24.736999,14.380992C25.140998,14.784991,25.795999,14.784991,26.199998,14.380992L38.416999,2.1630344C38.666999,2.3280334,38.832999,2.610033,38.832999,2.933032L38.832999,18.658978C38.832999,19.166976,38.421001,19.577975,37.911998,19.577975L13.474999,19.577975 13.567999,14.826991C13.635999,14.237993 13.616999,13.775995 13.546999,13.407996 14.292998,13.116997 14.824999,12.394999 14.824999,11.547002 14.824999,10.442006 13.926998,9.5450091 12.822998,9.5450087L11.970999,9.5450087 11.970999,2.933032C11.970999,2.5740328,12.175999,2.2700338,12.472999,2.117034z M13.897372,0L37.044005,0C37.032004,0.21999073,36.941005,0.43798065,36.770007,0.60397434L26.075179,11.241518C25.717185,11.592503,25.151193,11.592503,24.807199,11.243518L14.139369,0.65797138C13.963371,0.47697926,13.884373,0.23798943,13.897372,0z"
+                          Fill="{StaticResource PhoneContrastBackgroundBrush}"
+                          RenderTransformOrigin="0.5,0.5"
+                          Stretch="Uniform" />
+                    <Grid VerticalAlignment="Bottom">
+                        <Grid.Background>
+                            <SolidColorBrush Opacity="0.7" Color="{StaticResource AccentBrushAlter}" />
+                        </Grid.Background>
+                        <TextBlock x:Name="WriteFeedBackTextBlock"
+                                   HorizontalAlignment="Center"
+                                   FontSize="25"
+                                   Text="{Binding Path=LocalizedResources.RateAndReview_WriteFeedBackTextBlock_Text,
+                                                  Source={StaticResource LocalizedStrings}}" />
+                    </Grid>
+                </Grid>
+
+            </Grid>
+        </Grid>
+    </Grid>
+
+</phone:PhoneApplicationPage>
