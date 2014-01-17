@@ -64,7 +64,8 @@
                            Text="Your battery is" />
                 <TextBlock HorizontalAlignment="Center"
                            FontSize="150"
-                           Text="100" />
+                           Text="-1" 
+                           x:Name="BatteryPercentTextBlock"/>
                 <TextBlock HorizontalAlignment="Center"
                            FontSize="48"
                            Text="percent" />
@@ -87,7 +88,7 @@
                               BackgroundColor="{StaticResource PhoneBackgroundColor}"
                               IsMenuEnabled="True"
                               IsVisible="True"
-                              Mode="Minimized"
+                              Mode="Default"
                               Opacity="0.7"
                               x:FieldModifier="public">
             <shell:ApplicationBar.MenuItems>
@@ -98,6 +99,9 @@
                                               Click="RateAndReviewMenuBarItem_OnClick"
                                               Text="rate, review and feedback..." />
             </shell:ApplicationBar.MenuItems>
+            <shell:ApplicationBarIconButton Text="pin to start"
+                                            Click="ApplicationBarIconButton_OnClick"
+                                            IconUri="/Assets/Icon/Board-Pin.png"/>
         </shell:ApplicationBar>
     </phone:PhoneApplicationPage.ApplicationBar>
 
