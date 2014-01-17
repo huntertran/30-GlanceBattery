@@ -196,7 +196,7 @@ namespace GlanceBattery.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to [Glance Background for Windows Phone] - User feedback.
+        ///   Looks up a localized string similar to [Glance Battery for Windows Phone] - User feedback.
         /// </summary>
         public static string SplashScreen_SetupUI__EmailHeader {
             get {

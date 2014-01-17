@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="th-TH" original="AppResources.resx" tool-id="MultilingualAppToolkit" product-name="GlanceBattery" product-version="1.0.0.0" build-num="0">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="2.1.2010.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="Resx">
+        <trans-unit id="Resx/ResourceFlowDirection" translate="yes" xml:space="preserve">
+          <source>LeftToRight</source>
+          <target state="translated">LeftToRight</target>
+          
+        <note from="MultilingualBuild" annotates="source" priority="2">Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</note></trans-unit>
+        <trans-unit id="Resx/ResourceLanguage" translate="yes" xml:space="preserve">
+          <source>en-US</source>
+          <target state="translated">th-TH</target>
+          
+        <note from="MultilingualBuild" annotates="source" priority="2">Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</note></trans-unit>
+        <trans-unit id="Resx/ApplicationTitle" translate="yes" xml:space="preserve">
+          <source>MY APPLICATION</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">โปรแกรมประยุกต์ของฉัน</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppBarButtonText" translate="yes" xml:space="preserve">
+          <source>add</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">เพิ่ม</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppBarMenuItemText" translate="yes" xml:space="preserve">
+          <source>Menu Item</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">รายการเมนู</target>
+        </trans-unit>
+        <trans-unit id="Resx/About_AbouTextBlock_Text" translate="yes" xml:space="preserve">
+          <source>about</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">เกี่ยวกับ</target>
+        </trans-unit>
+        <trans-unit id="Resx/About_DetailsTextBlock1_Text" translate="yes" xml:space="preserve">
+          <source>Developed by Tuan Tran Van</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">พัฒนา โดยตวนตรันวาน</target>
+        </trans-unit>
+        <trans-unit id="Resx/About_DetailsTextBlock2_Text" translate="yes" xml:space="preserve">
+          <source>Microsoft Student Partner - HCMC</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">นักเรียน Microsoft คู่ - โฮจิมิน</target>
+        </trans-unit>
+        <trans-unit id="Resx/About_DetailsTextBlock3_Text" translate="yes" xml:space="preserve">
+          <source>University of Information Technology</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">มหาวิทยาลัยของเทคโนโลยี</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateAndReview_RateAndReviewTextBlock_Text" translate="yes" xml:space="preserve">
+          <source>Rate and Review</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">ให้คะแนนและวิจารณ์</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateAndReview_RateReviewTextBlock_Text" translate="yes" xml:space="preserve">
+          <source>rate - review</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">อัตรา - ตรวจทาน</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateAndReview_SelectFunctionTextBlock_Text" translate="yes" xml:space="preserve">
+          <source>Select a function</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion"><it id="1" pos="open">&lt; เลือกการทำงาน &gt;</it></target>
+        </trans-unit>
+        <trans-unit id="Resx/RateAndReview_WriteFeedBackTextBlock_Text" translate="yes" xml:space="preserve">
+          <source>Write a feedback</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">เขียนคำติชม</target>
+        </trans-unit>
+        <trans-unit id="Resx/SplashScreen_OnNavigatedTo_OfflineModeQuestion" translate="yes" xml:space="preserve">
+          <source>Do you want to open app in offline mode?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">คุณต้องเปิด app ในโหมดออฟไลน์</target>
+        </trans-unit>
+        <trans-unit id="Resx/SplashScreen_playlist_CollectionChanged_added_to_playlist" translate="yes" xml:space="preserve">
+          <source> added to playlist</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> เพิ่มรายการที่จะเล่น</target>
+        </trans-unit>
+        <trans-unit id="Resx/SplashScreen_SetupUI_EmailBody" translate="yes" xml:space="preserve">
+          <source>Hello.
+I want to tell you about </source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">สวัสดี
+อยากจะบอกคุณเกี่ยวกับ </target>
+        </trans-unit>
+        <trans-unit id="Resx/SplashScreen_SetupUI_Feedback" translate="yes" xml:space="preserve">
+          <source>We are willing to hear from you</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">เรายินดีที่จะได้ยินจากคุณ</target>
+        </trans-unit>
+        <trans-unit id="Resx/SplashScreen_SetupUI_FeedbackDetails" translate="yes" xml:space="preserve">
+          <source>Something annoying? Tell us and it will be in the next update</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">สิ่งน่ารำคาญ บอก และมันจะเป็นในการปรับปรุงถัดไป</target>
+        </trans-unit>
+        <trans-unit id="Resx/SplashScreen_SetupUI_FeedbackRemind" translate="yes" xml:space="preserve">
+          <source>You can send us a feed back later in 'Rate and Review' menu in Application Bar </source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">คุณสามารถส่งกลับตัวดึงข้อมูลในภายหลังในเมนูบาร์โปรแกรมประยุกต์ 'อัตราและตรวจทาน' </target>
+        </trans-unit>
+        <trans-unit id="Resx/SplashScreen_SetupUI_Great_news" translate="yes" xml:space="preserve">
+          <source>Great news</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ข่าวที่ดี</target>
+        </trans-unit>
+        <trans-unit id="Resx/SplashScreen_SetupUI_New_version" translate="yes" xml:space="preserve">
+          <source>New version available. Latest version: </source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">รุ่นใหม่มี รุ่นล่าสุด: </target>
+        </trans-unit>
+        <trans-unit id="Resx/SplashScreen_SetupUI_Rate" translate="yes" xml:space="preserve">
+          <source>Nice to see you again</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ยินดีที่ได้พบคุณอีก</target>
+        </trans-unit>
+        <trans-unit id="Resx/SplashScreen_SetupUI_RateDetails" translate="yes" xml:space="preserve">
+          <source>Would you like to rate 5 star and write an excellent review?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">คุณต้องการให้คะแนน 5 ดาว และเขียนการตรวจทานยอดเยี่ยม</target>
+        </trans-unit>
+        <trans-unit id="Resx/SplashScreen_SetupUI__EmailHeader" translate="yes" xml:space="preserve">
+          <source>[Glance Battery for Windows Phone] - User feedback</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[ดูแบตเตอรี่สำหรับ Windows Phone] - ความคิดเห็นผู้ใช้</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

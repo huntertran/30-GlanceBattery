@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="qps-ploc" original="AppResources.resx" tool-id="MultilingualAppToolkit" product-name="GlanceBattery" product-version="1.0.0.0" build-num="0">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="2.1.2010.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="Resx">
+        <trans-unit translate="yes" id="Resx/ResourceFlowDirection" xml:space="preserve">
+          <source>LeftToRight</source>
+          <target state="translated">LeftToRight</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</note>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/ResourceLanguage" xml:space="preserve">
+          <source>en-US</source>
+          <target state="translated">qps-ploc</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</note>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/ApplicationTitle" xml:space="preserve">
+          <source>MY APPLICATION</source>
+          <target state="new">MY APPLICATION</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/AppBarButtonText" xml:space="preserve">
+          <source>add</source>
+          <target state="new">add</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/AppBarMenuItemText" xml:space="preserve">
+          <source>Menu Item</source>
+          <target state="new">Menu Item</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/About_AbouTextBlock_Text" xml:space="preserve">
+          <source>about</source>
+          <target state="new">about</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/About_DetailsTextBlock1_Text" xml:space="preserve">
+          <source>Developed by Tuan Tran Van</source>
+          <target state="new">Developed by Tuan Tran Van</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/About_DetailsTextBlock2_Text" xml:space="preserve">
+          <source>Microsoft Student Partner - HCMC</source>
+          <target state="new">Microsoft Student Partner - HCMC</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/About_DetailsTextBlock3_Text" xml:space="preserve">
+          <source>University of Information Technology</source>
+          <target state="new">University of Information Technology</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/RateAndReview_RateAndReviewTextBlock_Text" xml:space="preserve">
+          <source>Rate and Review</source>
+          <target state="new">Rate and Review</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/RateAndReview_RateReviewTextBlock_Text" xml:space="preserve">
+          <source>rate - review</source>
+          <target state="new">rate - review</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/RateAndReview_SelectFunctionTextBlock_Text" xml:space="preserve">
+          <source>Select a function</source>
+          <target state="new">Select a function</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/RateAndReview_WriteFeedBackTextBlock_Text" xml:space="preserve">
+          <source>Write a feedback</source>
+          <target state="new">Write a feedback</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/SplashScreen_OnNavigatedTo_OfflineModeQuestion" xml:space="preserve">
+          <source>Do you want to open app in offline mode?</source>
+          <target state="new">Do you want to open app in offline mode?</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/SplashScreen_playlist_CollectionChanged_added_to_playlist" xml:space="preserve">
+          <source> added to playlist</source>
+          <target state="new"> added to playlist</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/SplashScreen_SetupUI_EmailBody" xml:space="preserve">
+          <source>Hello.
+I want to tell you about </source>
+          <target state="new">Hello.
+I want to tell you about </target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/SplashScreen_SetupUI_Feedback" xml:space="preserve">
+          <source>We are willing to hear from you</source>
+          <target state="new">We are willing to hear from you</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/SplashScreen_SetupUI_FeedbackDetails" xml:space="preserve">
+          <source>Something annoying? Tell us and it will be in the next update</source>
+          <target state="new">Something annoying? Tell us and it will be in the next update</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/SplashScreen_SetupUI_FeedbackRemind" xml:space="preserve">
+          <source>You can send us a feed back later in 'Rate and Review' menu in Application Bar </source>
+          <target state="new">You can send us a feed back later in 'Rate and Review' menu in Application Bar </target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/SplashScreen_SetupUI_Great_news" xml:space="preserve">
+          <source>Great news</source>
+          <target state="new">Great news</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/SplashScreen_SetupUI_New_version" xml:space="preserve">
+          <source>New version available. Latest version: </source>
+          <target state="new">New version available. Latest version: </target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/SplashScreen_SetupUI_Rate" xml:space="preserve">
+          <source>Nice to see you again</source>
+          <target state="new">Nice to see you again</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/SplashScreen_SetupUI_RateDetails" xml:space="preserve">
+          <source>Would you like to rate 5 star and write an excellent review?</source>
+          <target state="new">Would you like to rate 5 star and write an excellent review?</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/SplashScreen_SetupUI__EmailHeader" xml:space="preserve">
+          <source>[Glance Battery for Windows Phone] - User feedback</source>
+          <target state="new">[Glance Battery for Windows Phone] - User feedback</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

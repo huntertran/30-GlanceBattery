@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="ru-RU" original="AppResources.resx" tool-id="MultilingualAppToolkit" product-name="GlanceBattery" product-version="1.0.0.0" build-num="0">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="2.1.2010.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="Resx">
+        <trans-unit id="Resx/ResourceFlowDirection" translate="yes" xml:space="preserve">
+          <source>LeftToRight</source>
+          <target state="translated">LeftToRight</target>
+          
+        <note from="MultilingualBuild" annotates="source" priority="2">Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</note></trans-unit>
+        <trans-unit id="Resx/ResourceLanguage" translate="yes" xml:space="preserve">
+          <source>en-US</source>
+          <target state="translated">ru-RU</target>
+          
+        <note from="MultilingualBuild" annotates="source" priority="2">Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</note></trans-unit>
+        <trans-unit id="Resx/ApplicationTitle" translate="yes" xml:space="preserve">
+          <source>MY APPLICATION</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">мое приложение</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppBarButtonText" translate="yes" xml:space="preserve">
+          <source>add</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">добавить</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppBarMenuItemText" translate="yes" xml:space="preserve">
+          <source>Menu Item</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">элемент меню</target>
+        </trans-unit>
+        <trans-unit id="Resx/About_AbouTextBlock_Text" translate="yes" xml:space="preserve">
+          <source>about</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">о программе</target>
+        </trans-unit>
+        <trans-unit id="Resx/About_DetailsTextBlock1_Text" translate="yes" xml:space="preserve">
+          <source>Developed by Tuan Tran Van</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Разработанный Тран Ван Туан</target>
+        </trans-unit>
+        <trans-unit id="Resx/About_DetailsTextBlock2_Text" translate="yes" xml:space="preserve">
+          <source>Microsoft Student Partner - HCMC</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Студент Майкрософта партнер - Хошимин</target>
+        </trans-unit>
+        <trans-unit id="Resx/About_DetailsTextBlock3_Text" translate="yes" xml:space="preserve">
+          <source>University of Information Technology</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Университет информационных технологий</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateAndReview_RateAndReviewTextBlock_Text" translate="yes" xml:space="preserve">
+          <source>Rate and Review</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">оценки и отзывы</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateAndReview_RateReviewTextBlock_Text" translate="yes" xml:space="preserve">
+          <source>rate - review</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">курс - обзор</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateAndReview_SelectFunctionTextBlock_Text" translate="yes" xml:space="preserve">
+          <source>Select a function</source>
+          <target state="new">Select a function</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateAndReview_WriteFeedBackTextBlock_Text" translate="yes" xml:space="preserve">
+          <source>Write a feedback</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Написать отзыв</target>
+        </trans-unit>
+        <trans-unit id="Resx/SplashScreen_OnNavigatedTo_OfflineModeQuestion" translate="yes" xml:space="preserve">
+          <source>Do you want to open app in offline mode?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Вы хотите открыть приложения в автономном режиме?</target>
+        </trans-unit>
+        <trans-unit id="Resx/SplashScreen_playlist_CollectionChanged_added_to_playlist" translate="yes" xml:space="preserve">
+          <source> added to playlist</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> Добавлено в плейлист</target>
+        </trans-unit>
+        <trans-unit id="Resx/SplashScreen_SetupUI_EmailBody" translate="yes" xml:space="preserve">
+          <source>Hello.
+I want to tell you about </source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Привет.
+Я хочу рассказать вам о </target>
+        </trans-unit>
+        <trans-unit id="Resx/SplashScreen_SetupUI_Feedback" translate="yes" xml:space="preserve">
+          <source>We are willing to hear from you</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Мы готовы услышать от вас</target>
+        </trans-unit>
+        <trans-unit id="Resx/SplashScreen_SetupUI_FeedbackDetails" translate="yes" xml:space="preserve">
+          <source>Something annoying? Tell us and it will be in the next update</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Что-то раздражает? Расскажите нам, и он будет в следующем обновлении</target>
+        </trans-unit>
+        <trans-unit id="Resx/SplashScreen_SetupUI_FeedbackRemind" translate="yes" xml:space="preserve">
+          <source>You can send us a feed back later in 'Rate and Review' menu in Application Bar </source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Вы можете отправить нам обратную позднее в «Скорость и обзор» меню на панель приложения </target>
+        </trans-unit>
+        <trans-unit id="Resx/SplashScreen_SetupUI_Great_news" translate="yes" xml:space="preserve">
+          <source>Great news</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Большие новости</target>
+        </trans-unit>
+        <trans-unit id="Resx/SplashScreen_SetupUI_New_version" translate="yes" xml:space="preserve">
+          <source>New version available. Latest version: </source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Новая версия доступна. Последняя версия: </target>
+        </trans-unit>
+        <trans-unit id="Resx/SplashScreen_SetupUI_Rate" translate="yes" xml:space="preserve">
+          <source>Nice to see you again</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Приятно видеть вас снова</target>
+        </trans-unit>
+        <trans-unit id="Resx/SplashScreen_SetupUI_RateDetails" translate="yes" xml:space="preserve">
+          <source>Would you like to rate 5 star and write an excellent review?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Вы хотели бы оценить 5 звезды и написать отличный обзор?</target>
+        </trans-unit>
+        <trans-unit id="Resx/SplashScreen_SetupUI__EmailHeader" translate="yes" xml:space="preserve">
+          <source>[Glance Battery for Windows Phone] - User feedback</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[Взгляд аккумулятор для Windows Phone] - Отзывы пользователей</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="vi-VN" original="AppResources.resx" tool-id="MultilingualAppToolkit" product-name="GlanceBattery" product-version="1.0.0.0" build-num="0">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="2.1.2010.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="Resx">
+        <trans-unit id="Resx/ResourceFlowDirection" translate="yes" xml:space="preserve">
+          <source>LeftToRight</source>
+          <target state="translated">LeftToRight</target>
+          
+        <note from="MultilingualBuild" annotates="source" priority="2">Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</note></trans-unit>
+        <trans-unit id="Resx/ResourceLanguage" translate="yes" xml:space="preserve">
+          <source>en-US</source>
+          <target state="translated">vi-VN</target>
+          
+        <note from="MultilingualBuild" annotates="source" priority="2">Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</note></trans-unit>
+        <trans-unit id="Resx/ApplicationTitle" translate="yes" xml:space="preserve">
+          <source>MY APPLICATION</source>
+          <target state="signed-off">GLANCE BACKGROUND</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppBarButtonText" translate="yes" xml:space="preserve">
+          <source>add</source>
+          <target state="signed-off" state-qualifier="tm-suggestion">thêm</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppBarMenuItemText" translate="yes" xml:space="preserve">
+          <source>Menu Item</source>
+          <target state="signed-off">menu</target>
+        </trans-unit>
+        <trans-unit id="Resx/About_AbouTextBlock_Text" translate="yes" xml:space="preserve">
+          <source>about</source>
+          <target state="signed-off" state-qualifier="tm-suggestion">Giới thiệu</target>
+        </trans-unit>
+        <trans-unit id="Resx/About_DetailsTextBlock1_Text" translate="yes" xml:space="preserve">
+          <source>Developed by Tuan Tran Van</source>
+          <target state="signed-off">Phát triển bởi Trần Văn Tuấn</target>
+        </trans-unit>
+        <trans-unit id="Resx/About_DetailsTextBlock2_Text" translate="yes" xml:space="preserve">
+          <source>Microsoft Student Partner - HCMC</source>
+          <target state="signed-off">Microsoft Student Partner - TP. Hồ Chí Minh</target>
+        </trans-unit>
+        <trans-unit id="Resx/About_DetailsTextBlock3_Text" translate="yes" xml:space="preserve">
+          <source>University of Information Technology</source>
+          <target state="signed-off">Đại học Công nghệ Thông tin - ĐHQG</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateAndReview_RateAndReviewTextBlock_Text" translate="yes" xml:space="preserve">
+          <source>Rate and Review</source>
+          <target state="signed-off" state-qualifier="tm-suggestion">xếp hạng và đánh giá</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateAndReview_RateReviewTextBlock_Text" translate="yes" xml:space="preserve">
+          <source>rate - review</source>
+          <target state="signed-off">xếp hạng - đánh giá</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateAndReview_SelectFunctionTextBlock_Text" translate="yes" xml:space="preserve">
+          <source>Select a function</source>
+          <target state="signed-off">Chọn một chức năng</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateAndReview_WriteFeedBackTextBlock_Text" translate="yes" xml:space="preserve">
+          <source>Write a feedback</source>
+          <target state="signed-off">Viết phản hồi</target>
+        </trans-unit>
+        <trans-unit id="Resx/SplashScreen_OnNavigatedTo_OfflineModeQuestion" translate="yes" xml:space="preserve">
+          <source>Do you want to open app in offline mode?</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">Bạn có muốn mở ứng dụng trong chế độ gián tuyến không?</target>
+        </trans-unit>
+        <trans-unit id="Resx/SplashScreen_playlist_CollectionChanged_added_to_playlist" translate="yes" xml:space="preserve">
+          <source> added to playlist</source>
+          <target state="signed-off" state-qualifier="mt-suggestion"> Thêm vào danh sách chơi</target>
+        </trans-unit>
+        <trans-unit id="Resx/SplashScreen_SetupUI_EmailBody" translate="yes" xml:space="preserve">
+          <source>Hello.
+I want to tell you about </source>
+          <target state="signed-off" state-qualifier="mt-suggestion">Xin chào.
+Tôi muốn cho bạn biết về </target>
+        </trans-unit>
+        <trans-unit id="Resx/SplashScreen_SetupUI_Feedback" translate="yes" xml:space="preserve">
+          <source>We are willing to hear from you</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">Chúng tôi sẵn sàng để nghe từ bạn</target>
+        </trans-unit>
+        <trans-unit id="Resx/SplashScreen_SetupUI_FeedbackDetails" translate="yes" xml:space="preserve">
+          <source>Something annoying? Tell us and it will be in the next update</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">Một cái gì đó khó chịu? Hãy cho chúng tôi và nó sẽ trong bản Cập Nhật tiếp theo</target>
+        </trans-unit>
+        <trans-unit id="Resx/SplashScreen_SetupUI_FeedbackRemind" translate="yes" xml:space="preserve">
+          <source>You can send us a feed back later in 'Rate and Review' menu in Application Bar </source>
+          <target state="signed-off" state-qualifier="mt-suggestion">Bạn có thể gửi cho chúng tôi một nguồn cấp dữ liệu trở lại sau đó trong trình đơn 'Tỷ lệ và xem xét' trong ứng dụng thanh </target>
+        </trans-unit>
+        <trans-unit id="Resx/SplashScreen_SetupUI_Great_news" translate="yes" xml:space="preserve">
+          <source>Great news</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">Tin tức</target>
+        </trans-unit>
+        <trans-unit id="Resx/SplashScreen_SetupUI_New_version" translate="yes" xml:space="preserve">
+          <source>New version available. Latest version: </source>
+          <target state="signed-off" state-qualifier="mt-suggestion">Phiên bản mới có sẵn. Phiên bản mới nhất: </target>
+        </trans-unit>
+        <trans-unit id="Resx/SplashScreen_SetupUI_Rate" translate="yes" xml:space="preserve">
+          <source>Nice to see you again</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">Nice để xem bạn một lần nữa</target>
+        </trans-unit>
+        <trans-unit id="Resx/SplashScreen_SetupUI_RateDetails" translate="yes" xml:space="preserve">
+          <source>Would you like to rate 5 star and write an excellent review?</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">Bạn có muốn đánh giá 5 sao và viết một bài đánh giá tuyệt vời?</target>
+        </trans-unit>
+        <trans-unit id="Resx/SplashScreen_SetupUI__EmailHeader" translate="yes" xml:space="preserve">
+          <source>[Glance Battery for Windows Phone] - User feedback</source>
+          <target state="signed-off">[Glance Battery cho Windows Phone] - người dùng phản hồi</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

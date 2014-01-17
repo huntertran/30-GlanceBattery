@@ -122,74 +122,29 @@
     <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
   </data>
   <data name="ResourceLanguage" xml:space="preserve">
-    <value>en-US</value>
+    <value>pl-PL</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
-  <data name="ApplicationTitle" xml:space="preserve">
-    <value>MY APPLICATION</value>
-  </data>
-  <data name="AppBarButtonText" xml:space="preserve">
-    <value>add</value>
-  </data>
-  <data name="AppBarMenuItemText" xml:space="preserve">
-    <value>Menu Item</value>
-  </data>
-  <data name="About_AbouTextBlock_Text" xml:space="preserve">
-    <value>about</value>
-  </data>
-  <data name="About_DetailsTextBlock1_Text" xml:space="preserve">
-    <value>Developed by Tuan Tran Van</value>
-  </data>
-  <data name="About_DetailsTextBlock2_Text" xml:space="preserve">
-    <value>Microsoft Student Partner - HCMC</value>
-  </data>
-  <data name="About_DetailsTextBlock3_Text" xml:space="preserve">
-    <value>University of Information Technology</value>
-  </data>
-  <data name="RateAndReview_RateAndReviewTextBlock_Text" xml:space="preserve">
-    <value>Rate and Review</value>
-  </data>
-  <data name="RateAndReview_RateReviewTextBlock_Text" xml:space="preserve">
-    <value>rate - review</value>
-  </data>
-  <data name="RateAndReview_SelectFunctionTextBlock_Text" xml:space="preserve">
-    <value>Select a function</value>
-  </data>
-  <data name="RateAndReview_WriteFeedBackTextBlock_Text" xml:space="preserve">
-    <value>Write a feedback</value>
-  </data>
-  <data name="SplashScreen_OnNavigatedTo_OfflineModeQuestion" xml:space="preserve">
-    <value>Do you want to open app in offline mode?</value>
-  </data>
-  <data name="SplashScreen_playlist_CollectionChanged_added_to_playlist" xml:space="preserve">
-    <value> added to playlist</value>
-  </data>
-  <data name="SplashScreen_SetupUI_EmailBody" xml:space="preserve">
-    <value>Hello.
-I want to tell you about </value>
-  </data>
-  <data name="SplashScreen_SetupUI_Feedback" xml:space="preserve">
-    <value>We are willing to hear from you</value>
-  </data>
-  <data name="SplashScreen_SetupUI_FeedbackDetails" xml:space="preserve">
-    <value>Something annoying? Tell us and it will be in the next update</value>
-  </data>
-  <data name="SplashScreen_SetupUI_FeedbackRemind" xml:space="preserve">
-    <value>You can send us a feed back later in 'Rate and Review' menu in Application Bar </value>
-  </data>
-  <data name="SplashScreen_SetupUI_Great_news" xml:space="preserve">
-    <value>Great news</value>
-  </data>
-  <data name="SplashScreen_SetupUI_New_version" xml:space="preserve">
-    <value>New version available. Latest version: </value>
-  </data>
-  <data name="SplashScreen_SetupUI_Rate" xml:space="preserve">
-    <value>Nice to see you again</value>
-  </data>
-  <data name="SplashScreen_SetupUI_RateDetails" xml:space="preserve">
-    <value>Would you like to rate 5 star and write an excellent review?</value>
-  </data>
-  <data name="SplashScreen_SetupUI__EmailHeader" xml:space="preserve">
-    <value>[Glance Battery for Windows Phone] - User feedback</value>
-  </data>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 </root>
