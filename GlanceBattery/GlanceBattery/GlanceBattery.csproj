@@ -100,6 +100,7 @@
     <Compile Include="CustomControl\SpinningSquare.xaml.cs">
       <DependentUpon>SpinningSquare.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Data\StaticData.cs" />
     <Compile Include="LocalizedStrings.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
@@ -156,6 +157,8 @@
   <ItemGroup>
     <Content Include="analytics.xml" />
     <Content Include="Assets\AlignmentGrid.png" />
+    <Content Include="Assets\AppBar1\feature.settings.png" />
+    <Content Include="Assets\AppBar\feature.settings.png" />
     <Content Include="Assets\ApplicationIcon.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -215,9 +218,7 @@
       <HintPath>..\packages\Microsoft.Net.Http.2.1.10\lib\sl4-windowsphone71\System.Net.Http.Primitives.dll</HintPath>
     </Reference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Data\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\UpdateBatteryPercent\UpdateBatteryPercent.csproj">
       <Project>{DAE7C58F-8831-452A-945B-A3BAD7B12879}</Project>

@@ -176,5 +176,105 @@ namespace GlanceBattery.Resources {
                 return ResourceManager.GetString("ResourceLanguage", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Do you want to open app in offline mode?.
+        /// </summary>
+        public static string SplashScreen_OnNavigatedTo_OfflineModeQuestion {
+            get {
+                return ResourceManager.GetString("SplashScreen_OnNavigatedTo_OfflineModeQuestion", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to  added to playlist.
+        /// </summary>
+        public static string SplashScreen_playlist_CollectionChanged_added_to_playlist {
+            get {
+                return ResourceManager.GetString("SplashScreen_playlist_CollectionChanged_added_to_playlist", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to [Glance Background for Windows Phone] - User feedback.
+        /// </summary>
+        public static string SplashScreen_SetupUI__EmailHeader {
+            get {
+                return ResourceManager.GetString("SplashScreen_SetupUI__EmailHeader", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Hello.
+        ///I want to tell you about .
+        /// </summary>
+        public static string SplashScreen_SetupUI_EmailBody {
+            get {
+                return ResourceManager.GetString("SplashScreen_SetupUI_EmailBody", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to We are willing to hear from you.
+        /// </summary>
+        public static string SplashScreen_SetupUI_Feedback {
+            get {
+                return ResourceManager.GetString("SplashScreen_SetupUI_Feedback", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Something annoying? Tell us and it will be in the next update.
+        /// </summary>
+        public static string SplashScreen_SetupUI_FeedbackDetails {
+            get {
+                return ResourceManager.GetString("SplashScreen_SetupUI_FeedbackDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to You can send us a feed back later in &apos;Rate and Review&apos; menu in Application Bar .
+        /// </summary>
+        public static string SplashScreen_SetupUI_FeedbackRemind {
+            get {
+                return ResourceManager.GetString("SplashScreen_SetupUI_FeedbackRemind", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Great news.
+        /// </summary>
+        public static string SplashScreen_SetupUI_Great_news {
+            get {
+                return ResourceManager.GetString("SplashScreen_SetupUI_Great_news", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to New version available. Latest version: .
+        /// </summary>
+        public static string SplashScreen_SetupUI_New_version {
+            get {
+                return ResourceManager.GetString("SplashScreen_SetupUI_New_version", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Nice to see you again.
+        /// </summary>
+        public static string SplashScreen_SetupUI_Rate {
+            get {
+                return ResourceManager.GetString("SplashScreen_SetupUI_Rate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Would you like to rate 5 star and write an excellent review?.
+        /// </summary>
+        public static string SplashScreen_SetupUI_RateDetails {
+            get {
+                return ResourceManager.GetString("SplashScreen_SetupUI_RateDetails", resourceCulture);
+            }
+        }
     }
 }

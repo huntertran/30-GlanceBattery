@@ -1,17 +1,18 @@
 ﻿#define DEBUG_AGENT
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Navigation;
-using Windows.Phone.Devices.Power;
+using Windows.System;
+using GlanceBattery.Data;
+using GlanceBattery.Resources;
+using KaraokeOnline.Settings;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Scheduler;
 using Microsoft.Phone.Shell;
-using GlanceBattery.Resources;
+using System;
+using System.Linq;
+using System.Windows;
+using System.Windows.Navigation;
+using Windows.Phone.Devices.Power;
+using Microsoft.Phone.Tasks;
 
 namespace GlanceBattery
 {
@@ -29,6 +30,15 @@ namespace GlanceBattery
             //BuildLocalizedApplicationBar();
 
             this.Loaded += OnLoaded;
+        }
+
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            //Cout how many time this app was openned
+            CountOpen();
+            //Common task: Ask if user want to download newer version
+            SetupUI();
+            base.OnNavigatedTo(e);
         }
 
         private void OnLoaded(object sender, RoutedEventArgs routedEventArgs)
@@ -64,6 +74,7 @@ namespace GlanceBattery
         private static readonly string IconicTileQuery = "tile=iconic";
         public string Name = "Periodic Agent";
 
+        #region Live Tiles
         private void ApplicationBarIconButton_OnClick(object sender, EventArgs e)
         {
             Uri tileUri = new Uri(string.Concat("/MainPage.xaml?", IconicTileQuery), UriKind.Relative);
@@ -164,5 +175,70 @@ namespace GlanceBattery
 
             return formatted;
         }
+
+        private async void LockscreenApplicationBarIconButton_OnClick(object sender, EventArgs e)
+        {
+            await Launcher.LaunchUriAsync(new Uri("ms-settings-lock:"));
+        }
+
+        #endregion
+
+        #region Rate
+
+        private void CountOpen()
+        {
+            StaticData.openCount = ApplicationSettings.GetSetting<int>("openCount", 0);
+            StaticData.openCount++;
+            ApplicationSettings.SetSetting<int>("openCount", StaticData.openCount, true);
+        }
+
+        private void SetupUI()
+        {
+            if (StaticData.EnableAppLink)
+            {
+                if (MessageBox.Show(AppResources.SplashScreen_SetupUI_New_version + StaticData.checkParameterData.latestVersion, AppResources.SplashScreen_SetupUI_Great_news, MessageBoxButton.OKCancel) == MessageBoxResult.OK)
+                {
+                    WebBrowserTask webBrowserTask = new WebBrowserTask();
+                    webBrowserTask.Uri = new Uri(StaticData.checkParameterData.wpapplink);
+                    webBrowserTask.Show();
+                }
+            }
+
+            if (StaticData.openCount % 5 == 0 && ApplicationSettings.GetSetting<bool>("hasReview", false) == false)
+            {
+                if (MessageBox.Show(AppResources.SplashScreen_SetupUI_RateDetails, AppResources.SplashScreen_SetupUI_Rate,
+                    MessageBoxButton.OKCancel) == MessageBoxResult.OK)
+                {
+                    MarketplaceReviewTask marketPlace = new MarketplaceReviewTask();
+                    marketPlace.Show();
+                    ApplicationSettings.SetSetting<bool>("hasReview", true, true);
+                    GoogleAnalytics.EasyTracker.GetTracker().SendSocial("MarketPlace", "rate", "MarketPlace");
+                }
+                else
+                {
+                    if (MessageBox.Show(AppResources.SplashScreen_SetupUI_FeedbackDetails, AppResources.SplashScreen_SetupUI_Feedback,
+                    MessageBoxButton.OKCancel) == MessageBoxResult.OK)
+                    {
+                        EmailComposeTask email = new EmailComposeTask();
+                        email.To = "cuoilennaocacban2@hotmail.com";
+                        email.Subject = AppResources.SplashScreen_SetupUI__EmailHeader;
+                        email.Body = AppResources.SplashScreen_SetupUI_EmailBody;
+                        email.Show();
+
+                        //ApplicationSettings.SetSetting<bool>("hasReview", true, true);
+                    }
+                    else
+                    {
+                        MessageBox.Show(AppResources.SplashScreen_SetupUI_FeedbackRemind);
+
+                        //No, they didn't
+                        //ApplicationSettings.SetSetting<bool>("hasReview", true, true);
+                    }
+                }
+            }
+        }
+
+        #endregion
+
     }
 }

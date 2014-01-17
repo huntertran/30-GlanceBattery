@@ -102,6 +102,10 @@
             <shell:ApplicationBarIconButton Text="pin to start"
                                             Click="ApplicationBarIconButton_OnClick"
                                             IconUri="/Assets/Icon/Board-Pin.png"/>
+            <shell:ApplicationBarIconButton Text="lock setting"
+                                            x:Name="LockscreenApplicationBarIconButton"
+                                            Click="LockscreenApplicationBarIconButton_OnClick"
+                                            IconUri="/Assets/AppBar/feature.settings.png"/>
         </shell:ApplicationBar>
     </phone:PhoneApplicationPage.ApplicationBar>
 
