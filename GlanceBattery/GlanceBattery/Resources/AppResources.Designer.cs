@@ -124,6 +124,96 @@ namespace GlanceBattery.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to GLANCE BATTERY.
+        /// </summary>
+        public static string MainPage_AppName {
+            get {
+                return ResourceManager.GetString("MainPage_AppName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Time remaining: .
+        /// </summary>
+        public static string MainPage_CreateIconicTileData_Time_remaining__ {
+            get {
+                return ResourceManager.GetString("MainPage_CreateIconicTileData_Time_remaining__", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Your battery is at .
+        /// </summary>
+        public static string MainPage_CreateIconicTileData_Your_battery_is_at_ {
+            get {
+                return ResourceManager.GetString("MainPage_CreateIconicTileData_Your_battery_is_at_", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to main page.
+        /// </summary>
+        public static string MainPage_PageName_Text {
+            get {
+                return ResourceManager.GetString("MainPage_PageName_Text", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to about....
+        /// </summary>
+        public static string MainPage_SetupApplicationBar_about {
+            get {
+                return ResourceManager.GetString("MainPage_SetupApplicationBar_about", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to pin.
+        /// </summary>
+        public static string MainPage_SetupApplicationBar_play {
+            get {
+                return ResourceManager.GetString("MainPage_SetupApplicationBar_play", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to rate, review and feedback....
+        /// </summary>
+        public static string MainPage_SetupApplicationBar_rateAndReview {
+            get {
+                return ResourceManager.GetString("MainPage_SetupApplicationBar_rateAndReview", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to lock setting.
+        /// </summary>
+        public static string MainPage_SetupApplicationBar_search {
+            get {
+                return ResourceManager.GetString("MainPage_SetupApplicationBar_search", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to settings....
+        /// </summary>
+        public static string MainPage_SetupApplicationBar_settings {
+            get {
+                return ResourceManager.GetString("MainPage_SetupApplicationBar_settings", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Your battery is.
+        /// </summary>
+        public static string MainPage_TextBlock1_Text {
+            get {
+                return ResourceManager.GetString("MainPage_TextBlock1_Text", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Rate and Review.
         /// </summary>
         public static string RateAndReview_RateAndReviewTextBlock_Text {

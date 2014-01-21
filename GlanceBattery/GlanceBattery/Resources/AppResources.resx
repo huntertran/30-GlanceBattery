@@ -192,4 +192,34 @@ I want to tell you about </value>
   <data name="SplashScreen_SetupUI__EmailHeader" xml:space="preserve">
     <value>[Glance Battery for Windows Phone] - User feedback</value>
   </data>
+  <data name="MainPage_AppName" xml:space="preserve">
+    <value>GLANCE BATTERY</value>
+  </data>
+  <data name="MainPage_PageName_Text" xml:space="preserve">
+    <value>main page</value>
+  </data>
+  <data name="MainPage_TextBlock1_Text" xml:space="preserve">
+    <value>Your battery is</value>
+  </data>
+  <data name="MainPage_SetupApplicationBar_about" xml:space="preserve">
+    <value>about...</value>
+  </data>
+  <data name="MainPage_SetupApplicationBar_play" xml:space="preserve">
+    <value>pin</value>
+  </data>
+  <data name="MainPage_SetupApplicationBar_rateAndReview" xml:space="preserve">
+    <value>rate, review and feedback...</value>
+  </data>
+  <data name="MainPage_SetupApplicationBar_search" xml:space="preserve">
+    <value>lock setting</value>
+  </data>
+  <data name="MainPage_SetupApplicationBar_settings" xml:space="preserve">
+    <value>settings...</value>
+  </data>
+  <data name="MainPage_CreateIconicTileData_Your_battery_is_at_" xml:space="preserve">
+    <value>Your battery is at </value>
+  </data>
+  <data name="MainPage_CreateIconicTileData_Time_remaining__" xml:space="preserve">
+    <value>Time remaining: </value>
+  </data>
 </root>

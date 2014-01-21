@@ -84,7 +84,7 @@ Tôi muốn cho bạn biết về </target>
         </trans-unit>
         <trans-unit id="Resx/SplashScreen_SetupUI_FeedbackRemind" translate="yes" xml:space="preserve">
           <source>You can send us a feed back later in 'Rate and Review' menu in Application Bar </source>
-          <target state="signed-off" state-qualifier="mt-suggestion">Bạn có thể gửi cho chúng tôi một nguồn cấp dữ liệu trở lại sau đó trong trình đơn 'Tỷ lệ và xem xét' trong ứng dụng thanh </target>
+          <target state="signed-off">Bạn có thể gửi cho chúng tôi một nguồn cấp dữ liệu trở lại sau đó trong trình đơn 'Xếp hạng và đánh giá' trong ứng dụng thanh </target>
         </trans-unit>
         <trans-unit id="Resx/SplashScreen_SetupUI_Great_news" translate="yes" xml:space="preserve">
           <source>Great news</source>
@@ -105,6 +105,46 @@ Tôi muốn cho bạn biết về </target>
         <trans-unit id="Resx/SplashScreen_SetupUI__EmailHeader" translate="yes" xml:space="preserve">
           <source>[Glance Battery for Windows Phone] - User feedback</source>
           <target state="signed-off">[Glance Battery cho Windows Phone] - người dùng phản hồi</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/MainPage_SetupApplicationBar_settings" xml:space="preserve">
+          <source>settings...</source>
+          <target state="signed-off" state-qualifier="tm-suggestion">Thiết đặt</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/MainPage_CreateIconicTileData_Time_remaining__" xml:space="preserve">
+          <source>Time remaining: </source>
+          <target state="signed-off">Thời gian còn lại: </target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/MainPage_CreateIconicTileData_Your_battery_is_at_" xml:space="preserve">
+          <source>Your battery is at </source>
+          <target state="signed-off">Pin còn </target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/MainPage_SetupApplicationBar_search" xml:space="preserve">
+          <source>lock setting</source>
+          <target state="signed-off">thiết lập</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/MainPage_SetupApplicationBar_rateAndReview" xml:space="preserve">
+          <source>rate, review and feedback...</source>
+          <target state="signed-off">xếp hạng, đánh giá và phản hồi...</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/MainPage_SetupApplicationBar_play" xml:space="preserve">
+          <source>pin</source>
+          <target state="signed-off">ghim</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/MainPage_SetupApplicationBar_about" xml:space="preserve">
+          <source>about...</source>
+          <target state="signed-off" state-qualifier="tm-suggestion">Giới thiệu</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/MainPage_TextBlock1_Text" xml:space="preserve">
+          <source>Your battery is</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">Pin của bạn</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/MainPage_PageName_Text" xml:space="preserve">
+          <source>main page</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">Trang chính</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/MainPage_AppName" xml:space="preserve">
+          <source>GLANCE BATTERY</source>
+          <target state="signed-off">GLANCE BATTERY</target>
         </trans-unit>
       </group>
     </body>

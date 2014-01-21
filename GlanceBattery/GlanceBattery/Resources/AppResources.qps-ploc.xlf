@@ -106,6 +106,46 @@ I want to tell you about </target>
           <source>[Glance Battery for Windows Phone] - User feedback</source>
           <target state="new">[Glance Battery for Windows Phone] - User feedback</target>
         </trans-unit>
+        <trans-unit translate="yes" id="Resx/MainPage_SetupApplicationBar_settings" xml:space="preserve">
+          <source>settings...</source>
+          <target state="new">settings...</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/MainPage_CreateIconicTileData_Time_remaining__" xml:space="preserve">
+          <source>Time remaining: </source>
+          <target state="new">Time remaining: </target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/MainPage_CreateIconicTileData_Your_battery_is_at_" xml:space="preserve">
+          <source>Your battery is at </source>
+          <target state="new">Your battery is at </target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/MainPage_SetupApplicationBar_search" xml:space="preserve">
+          <source>lock setting</source>
+          <target state="new">lock setting</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/MainPage_SetupApplicationBar_rateAndReview" xml:space="preserve">
+          <source>rate, review and feedback...</source>
+          <target state="new">rate, review and feedback...</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/MainPage_SetupApplicationBar_play" xml:space="preserve">
+          <source>pin</source>
+          <target state="new">pin</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/MainPage_SetupApplicationBar_about" xml:space="preserve">
+          <source>about...</source>
+          <target state="new">about...</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/MainPage_TextBlock1_Text" xml:space="preserve">
+          <source>Your battery is</source>
+          <target state="new">Your battery is</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/MainPage_PageName_Text" xml:space="preserve">
+          <source>main page</source>
+          <target state="new">main page</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/MainPage_AppName" xml:space="preserve">
+          <source>GLANCE BATTERY</source>
+          <target state="new">GLANCE BATTERY</target>
+        </trans-unit>
       </group>
     </body>
   </file>

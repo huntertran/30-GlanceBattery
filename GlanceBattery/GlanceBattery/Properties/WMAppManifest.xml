@@ -2,12 +2,7 @@
 <Deployment xmlns="http://schemas.microsoft.com/windowsphone/2012/deployment" AppPlatformVersion="8.0">
   <DefaultLanguage xmlns="" code="en-US" />
   <Languages xmlns="">
-    <Language code="fr" />
-    <Language code="hsb-DE" />
-    <Language code="pl-PL" />
     <Language code="qps-ploc" />
-    <Language code="ru-RU" />
-    <Language code="th-TH" />
     <Language code="vi-VN" />
   </Languages>
   <App xmlns="" ProductID="{b33f6577-6008-41dc-a4ba-7cb2b447b267}" Title="Glance Battery" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="Tuan Tran Van" Description="Display Percentage of your battery on lock screen and glance screen" Publisher="cuoilennaocacban2" PublisherID="{e28a1dde-97e9-482e-bc46-9e0df0f41eae}">

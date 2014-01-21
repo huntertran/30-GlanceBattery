@@ -38,6 +38,7 @@ namespace GlanceBattery
             CountOpen();
             //Common task: Ask if user want to download newer version
             SetupUI();
+            SetupApplicationBar();
             //Update tiles
             StartPeriodicAgent();
 
@@ -47,6 +48,15 @@ namespace GlanceBattery
         private void OnLoaded(object sender, RoutedEventArgs routedEventArgs)
         {
             BatteryPercentTextBlock.Text = Battery.GetDefault().RemainingChargePercent.ToString();
+        }
+
+        private void SetupApplicationBar()
+        {
+            ((ApplicationBarIconButton)ApplicationBar.Buttons[0]).Text = AppResources.MainPage_SetupApplicationBar_play;
+            ((ApplicationBarIconButton)ApplicationBar.Buttons[1]).Text = AppResources.MainPage_SetupApplicationBar_search;
+
+            ((ApplicationBarMenuItem)ApplicationBar.MenuItems[0]).Text = AppResources.MainPage_SetupApplicationBar_settings;
+            ((ApplicationBarMenuItem)ApplicationBar.MenuItems[1]).Text = AppResources.MainPage_SetupApplicationBar_rateAndReview;
         }
 
         // Sample code for building a localized ApplicationBar
@@ -105,8 +115,8 @@ namespace GlanceBattery
             iconicTileData.Count = 99;
             iconicTileData.IconImage = new Uri("/Assets/Icon/battery-medium.png", UriKind.Relative);
             iconicTileData.SmallIconImage = new Uri("/Assets/Icon/battery-medium.png", UriKind.Relative);
-            iconicTileData.WideContent1 = "Your battery is at " + Battery.GetDefault().RemainingChargePercent +" %";
-            iconicTileData.WideContent2 = "Time remaining: " + ToReadableString(Battery.GetDefault().RemainingDischargeTime);
+            iconicTileData.WideContent1 = AppResources.MainPage_CreateIconicTileData_Your_battery_is_at_ + Battery.GetDefault().RemainingChargePercent +" %";
+            iconicTileData.WideContent2 = AppResources.MainPage_CreateIconicTileData_Time_remaining__ + ToReadableString(Battery.GetDefault().RemainingDischargeTime);
 
             return iconicTileData;
         }
